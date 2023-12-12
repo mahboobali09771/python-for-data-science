@@ -1,0 +1,10 @@
+lst=["google","microsoft","amazon","flipkart"]
+print("before delete")
+print(lst,id(lst))
+print("after delete")
+del(lst[3])
+print(lst,id(lst))
+del(lst[1])
+print(lst,id(lst))
+del(lst[0])
+print(lst,id(lst))
